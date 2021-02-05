@@ -21,6 +21,6 @@ mv /root/portals/evilportals-master/portals/* /root/portals/.
 
 rm -r /root/portals/evilportals-master
 
-rm master.zip
+rm /root/portals/master.zip
 
 echo "Done! Reload the Evil Portal GUI on the Mk7 and the portals should now show!"
