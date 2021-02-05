@@ -4,8 +4,11 @@
 # need to download the files to any intermediate device first and then scp them to
 # the Pineapple.
 #
+# To get this bash script to the Pineapple, just execute:
+# wget https://raw.githubusercontent.com/chrizree/PineappleEPfix/main/just_add_the_portals.sh
+#
 # This assumes that the Pineapple has an active connection to the interwebz...
-# Also remember to chmod +x (this file) to make it executable
+# Also remember to chmod +x (bash file name) to make it executable
 
 opkg update
 
