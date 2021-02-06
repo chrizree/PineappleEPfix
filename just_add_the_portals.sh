@@ -14,6 +14,8 @@ opkg update
 
 opkg install unzip
 
+mkdir -p /root/portals
+
 cd /root/portals
 
 wget https://github.com/kbeflo/evilportals/archive/master.zip -O /root/portals/master.zip
