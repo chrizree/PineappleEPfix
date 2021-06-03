@@ -6,7 +6,9 @@ opkg install php7 php7-mod-curl php7-mod-json php7-fpm php7-mod-sqlite3 nginx un
 
 cd /root/portals
 
-wget https://github.com/kbeflo/evilportals/archive/master.zip -O /root/portals/master.zip
+# Changed May 2021 due to the fact that kbeflo seems to have moved his Github to "kleo" (even though it's still possible to use the kbeflo download URL)
+#wget https://github.com/kbeflo/evilportals/archive/master.zip -O /root/portals/master.zip
+wget https://github.com/kleo/evilportals/archive/refs/heads/master.zip -O /root/portals/master.zip
 
 unzip /root/portals/master.zip
 
