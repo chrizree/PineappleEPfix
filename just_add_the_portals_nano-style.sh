@@ -20,7 +20,9 @@ mkdir -p /sd/portals
 
 cd /sd/portals
 
-wget https://github.com/kbeflo/evilportals/archive/master.zip -O /sd/portals/master.zip
+# Changed May 2021 due to the fact that kbeflo seems to have moved his Github to "kleo" (even though it's still possible to use the kbeflo download URL)
+#wget https://github.com/kbeflo/evilportals/archive/master.zip -O /sd/portals/master.zip
+wget https://github.com/kleo/evilportals/archive/refs/heads/master.zip -O /sd/portals/master.zip
 
 unzip /sd/portals/master.zip
 
